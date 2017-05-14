@@ -187,7 +187,7 @@
   background-size:cover;
   background-position: center;
   width: 95%;
-  height: 55vh;
+  height: 80vh;
   margin: 29px auto 30px;
 
 }
@@ -248,7 +248,7 @@
 
 .github-link {
   position: static;
-  margin-top: 7%;
+  margin-top: 2%;
   -webkit-transform: scale(0.78);
   -ms-transform: scale(0.78);
   transform: scale(0.78);
@@ -268,12 +268,12 @@
 }
 
 .project-description {
-  margin: 24px 0% 9px;
+  margin: 24px 0% px;
   padding-right: 7px;
   padding-left: 7px;
   color: #d7d7d7;
-  font-size: 1.5em;
-  line-height: 1.7em;
+  font-size: 1.0em;
+  line-height: 1.1em;
   font-weight: 300;
   text-align: center;
 }
