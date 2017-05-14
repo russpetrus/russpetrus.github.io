@@ -186,9 +186,12 @@
   display: block;
   background-size:cover;
   background-position: center;
-  width: 95%;
-  height: 80vh;
-  margin: 29px auto 30px;
+  width: 90%;
+  height: 70vh;
+  margin-top: 29px;
+  margin-left: auto;
+  margin-right:auto; 
+  margin-bottom:30px;
 
 }
 
@@ -393,7 +396,7 @@
   color: #a7681f;
   text-align: center;
   text-transform: lowercase;
-  font-size:1.5em;
+  font-size:1em;
 
 }
 
