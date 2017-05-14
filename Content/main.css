@@ -268,12 +268,12 @@
 }
 
 .project-description {
-  margin: 24px 0% px;
+  margin: 24px 0% 2%;
   padding-right: 7px;
   padding-left: 7px;
   color: #d7d7d7;
-  font-size: 1.0em;
-  line-height: 1.1em;
+  font-size: 1.25em;
+  line-height: 1.3em;
   font-weight: 300;
   text-align: center;
 }
