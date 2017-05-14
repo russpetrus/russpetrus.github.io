@@ -1,0 +1,533 @@
+.body{
+    padding: 0 0 0 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+
+
+.welcome {
+    
+    position: static;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    overflow: hidden;
+    height: 100vh;
+    padding-top: 57px;
+    background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, .62), hsla(0, 0%, 100%, .86)), url('images/brick.jpg');
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .62), hsla(0, 0%, 100%, .86)), url('images/brick.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+.welcome-heading {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  font-family: Raleway, sans-serif;
+  color: #7e7365;
+  font-size: 4em;
+  line-height: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+  text-shadow: 0 9px 5px hsla(0, 0%, 84%, .85);
+}
+
+.profile-img {
+  display: block;
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #a7681f;
+  border-radius: 360px;
+  box-shadow: 1px 1px 3px 0 #000;
+}
+
+.welcome-sub-heading {
+  margin-top: 0%;
+  font-family: Raleway, sans-serif;
+  color: #a7681f;
+  font-size: 2em;
+  line-height: 2.1em;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: lowercase;
+}
+
+.underline {
+  display: block;
+  width: 20vw;
+  margin: 9px auto 0px;
+  border-top: 2px solid #d7d7d7;
+}
+
+.underline.orange {
+  width: 20%;
+  margin-top: 0px;
+  border-top-color: #a7681f;
+}
+
+.underline.margin {
+  margin-top: 0px;
+  margin-bottom: 11px;
+}
+
+.about-me-section {
+  height: auto;
+  padding-top: 22px;
+  padding-bottom: 0px;
+  background-color: hsla(35, 18%, 79%, .13);
+}
+
+.projects-section {
+  height: auto;
+  margin-bottom: 0px;
+  padding-top: 42px;
+  padding-bottom: 25px;
+  background-image: -webkit-linear-gradient(270deg, hsla(35, 18%, 79%, .76), hsla(35, 18%, 79%, .76)), url('images/old-wood-plank-texture-20140918174347-541b19d30d621.jpg');
+  background-image: linear-gradient(180deg, hsla(35, 18%, 79%, .76), hsla(35, 18%, 79%, .76)), url('images/old-wood-plank-texture-20140918174347-541b19d30d621.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, 1104px;
+  background-attachment: scroll, fixed;
+  text-align: justify;
+}
+
+.content-headline {
+  overflow: hidden;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Raleway, sans-serif;
+  color: #a7681f;
+  font-size: 2.0em;
+  line-height: 2.1em;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.3em;
+  text-transform: lowercase;
+}
+
+.content-headline.brown {
+  color: #7e7365;
+}
+
+.navbar {
+  position: static;
+  background-color: transparent;
+}
+
+.nav-link {
+  position: static;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: Raleway, sans-serif;
+  color: #92918f;
+  font-size: 1.175em;
+  line-height: 1em;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.nav-link:hover {
+  color: #92918f;
+}
+
+.nav-link.withline {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-right: 1px solid #6b7a8e;
+  color: #92918f;
+}
+
+.nav-link.withline:hover {
+  color: #a7681f;
+}
+
+.nav-link.withline.w--current {
+  border-right-color: #7e7365;
+  color: #a7681f;
+}
+
+.nav-menu {
+  margin-top: 9px;
+  float: none;
+  text-align: center;
+}
+
+.paragraph {
+  margin-bottom: 7px;
+  font-family: Raleway, sans-serif;
+  color: #92918f;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-weight: 200;
+  text-align: left;
+  letter-spacing: 0em;
+}
+
+.signature {
+  width: 30%;
+  margin-top: 23px;
+  margin-bottom: 24px;
+}
+
+.project-block {
+  display: block;
+  background-size:cover;
+  background-position: center;
+  width: 95%;
+  height: 55vh;
+  margin: 29px auto 30px;
+
+}
+
+#tuscanyvilla{
+    background-image: url('images/tuscanyvilla.png');
+}
+
+#virtualpet{
+    background-image: url('images/virtualpet.png');
+}
+
+#techreview{
+
+    background-image: url('images/techreview.png');
+}
+    
+#bankaccount{
+    background-image: url('images/bankingapp.png');
+
+}
+
+.project-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 8px;
+  color: #a7681f;
+  font-size: 2em;
+  line-height: 2.2em;
+  font-weight: 500;
+  letter-spacing: 0.7em;
+  text-transform: uppercase;
+}
+
+.body {
+  padding-top: 0vh;
+  font-family: Raleway, sans-serif;
+}
+
+.project-overlay {
+  height: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: 2px solid #a7681f;
+  background-color: #92918f;
+  opacity: 0;
+  -webkit-transition: opacity 800ms ease-in-out;
+  transition: opacity 800ms ease-in-out;
+  text-align: center;
+}
+
+.project-overlay:hover {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.github-link {
+  position: static;
+  margin-top: 7%;
+  -webkit-transform: scale(0.78);
+  -ms-transform: scale(0.78);
+  transform: scale(0.78);
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+  font-family: 'Fontawesome webfont', sans-serif;
+  color: #d7d7d7;
+  font-size: 6em;
+  text-decoration: none;
+}
+
+.github-link:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  color: #a7681f;
+}
+
+.project-description {
+  margin: 24px 0% 9px;
+  padding-right: 7px;
+  padding-left: 7px;
+  color: #d7d7d7;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.project-skills {
+  margin-top: 0px;
+  margin-bottom: 6px;
+  color: #7e7365;
+  font-size: 1.5em;
+  line-height: 2em;
+  font-weight: 200;
+  letter-spacing: 1.1px;
+  text-transform: lowercase;
+}
+
+.text-block-2 {
+  font-size: 1em;
+}
+
+.content-block {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+  padding-top: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+  float: none;
+}
+
+.content-block.skills {
+  height: 488px;
+}
+
+.content-block.img {
+  display: block;
+  height: 488px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-image: -webkit-linear-gradient(270deg, hsla(34, 11%, 45%, .48), hsla(34, 11%, 45%, .48)), url('images/atcomputerbw.png');
+  background-image: linear-gradient(180deg, hsla(34, 11%, 45%, .48), hsla(34, 11%, 45%, .48)), url('images/atcomputerbw.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.skill-icon {
+  display: block;
+  width: 75%;
+  margin-top: 47px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Fontawesome webfont', sans-serif;
+  color: #7e7365;
+  font-size: 3em;
+  line-height: 1em;
+  text-align: center;
+}
+
+.colorblock {
+  width: 32%;
+  height: 150px;
+  margin-top: 0px;
+  margin-left: 0px;
+  float: left;
+  background-color: #7e7365;
+  color: #c28c48;
+}
+
+.colorblock.center {
+  width: 32%;
+  height: 150px;
+  margin: 0px 2%;
+  background-image: url('../images/atcomputerbw.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.colorblock.brown {
+  height: 150px;
+  margin-bottom: 22px;
+  margin-left: 0px;
+  float: left;
+  background-color: #92918f;
+}
+
+.colorblock-overlay {
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(270deg, hsla(34, 11%, 45%, .37), hsla(34, 11%, 45%, .37)), url('images/atcomputerbw.png');
+  background-image: linear-gradient(180deg, hsla(34, 11%, 45%, .37), hsla(34, 11%, 45%, .37)), url('images/atcomputerbw.png');
+  background-position: 0px 0px, 50% 0px;
+  background-size: auto, cover;
+  -webkit-transition: background-color 450ms ease-in-out;
+  transition: background-color 450ms ease-in-out;
+}
+
+.text-block-3 {
+  height: auto;
+}
+
+.skill-tag {
+  margin-top: 12px;
+  color: #7e7365;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+}
+
+.skills {
+  margin-bottom: 13px;
+  color: #a7681f;
+  text-align: center;
+  text-transform: lowercase;
+  font-size:1.5em;
+
+}
+
+.column {
+  text-align: left;
+}
+
+.column-2 {
+  text-align: left;
+}
+
+.skills-area {
+  margin-top: 43px;
+  padding-top: 35px;
+  padding-bottom: 55px;
+  background-color: hsla(34, 11%, 45%, .37);
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.image {
+  position: static;
+}
+
+.image:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.overlay {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: auto;
+  height: auto;
+  background-color: hsla(34, 11%, 45%, .71);
+}
+
+.contact-overlay {
+  height: 100%;
+  padding-top: 140px;
+  padding-bottom: 0px;
+  background-color: hsla(40, 1%, 57%, .98);
+  opacity: 0;
+  -webkit-transition: opacity 700ms ease-in-out;
+  transition: opacity 700ms ease-in-out;
+  text-align: center;
+}
+
+.contact-overlay:hover {
+  opacity: 1;
+}
+
+.contact-wrapper {
+  text-align: left;
+}
+
+.contact-wrapper.in-img {
+  margin-top: 52px;
+  text-align: center;
+}
+
+.contact-link {
+  width: 15%;
+  margin-right: 14px;
+  opacity: 0.85;
+  -webkit-transition: all 600ms ease-in-out;
+  transition: all 600ms ease-in-out;
+  font-family: 'Fontawesome webfont', sans-serif;
+  color: #d7d7d7;
+  font-size: 2.5em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  opacity: 1;
+  color: #a7681f;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 3px solid #a7681f;
+  background-color: #92918f;
+  color: #d4ccc1;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .content-block.img {
+    height: 488px;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-image {
+    height: auto;
+    padding-bottom: 0px;
+  }
+  .project-overlay {
+    height: 100%;
+    padding-bottom: 19px;
+  }
+}
+
+@media (max-width: 479px) {
+  .welcome {
+    height: 100vh;
+  }
+  .welcome-heading {
+    font-size: 2.5em;
+  }
+  .welcome-sub-heading {
+    font-size: 1.2em;
+  }
+  .content-headline {
+    font-size: 1.5em;
+  }
+  .content-block.img {
+    height: 300px;
+  }
+  .colorblock-overlay {
+    background-image: -webkit-linear-gradient(270deg, null, null), url('images/atcomputerbw.png');
+    background-image: linear-gradient(180deg, null, null), url('images/atcomputerbw.png');
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+  .contact-overlay {
+    padding-top: 72px;
+  }
+}
+
